@@ -1,0 +1,63 @@
+<!-- Navbar -->
+<app-header2></app-header2>
+
+<!-- Contact Us -->
+<div class="container  mt-5 mb-8" data-aos="fade-up">
+    <h2 class="title fs-3">Contact Us</h2>
+    <h4 class="mt-3">What are you looking for?</h4>
+    <div class="btn-group mt-2" role="group" aria-label="Checkbox options">
+        <input class="btn-check" type="checkbox" name="inlineCheckboxOptions" id="inlineCheckbox1" value="option1">
+        <label class="btn btn-outline-primary" for="inlineCheckbox1">UI/UX Design</label>
+
+        <input class="btn-check" type="checkbox" name="inlineCheckboxOptions" id="inlineCheckbox2" value="option2">
+        <label class="btn btn-outline-primary" for="inlineCheckbox2">Web Development</label>
+
+        <input class="btn-check" type="checkbox" name="inlineCheckboxOptions" id="inlineCheckbox3" value="option3">
+        <label class="btn btn-outline-primary" for="inlineCheckbox3">Data Analyzing</label>
+    </div>
+
+    <h4 class="mt-3">How do you like to contact?</h4>
+    <div class="btn-group mt-2" role="group" aria-label="Radio options">
+        <input class="btn-check" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+        <label class="btn btn-outline-primary" for="inlineRadio1">Phone</label>
+
+        <input class="btn-check" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+        <label class="btn btn-outline-primary" for="inlineRadio2">What'sApp</label>
+
+        <input class="btn-check" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3">
+        <label class="btn btn-outline-primary" for="inlineRadio3">Email</label>
+    </div>
+
+    <form class="row g-3 mt-5">
+        <div class="col-md-6">
+            <label for="inputFirstName" class="form-label">First Name</label>
+            <input type="text" class="form-control" id="inputFirstName" placeholder="First Name">
+        </div>
+        <div class="col-md-6">
+            <label for="inputLastName" class="form-label">Last Name</label>
+            <input type="text" class="form-control" id="inputLastName" placeholder="Last Name">
+        </div>
+        <div class="col-md-6">
+            <label for="emailId" class="form-label">Email ID</label>
+            <input type="email" class="form-control" id="emailId" placeholder="xyz@gmail.com">
+        </div>
+        <div class="col-md-6">
+            <label for="phoneNumber" class="form-label">Phone Number</label>
+            <input type="text" class="form-control no-spinners" id="phoneNumber" maxlength="12"
+                onkeypress="return event.charCode>=48 &&  event.charCode<=57" placeholder="91xxxxxxxxxx"
+                inputmode="tel">
+        </div>
+        <div class="col-12">
+            <label for="inputDetails" class="form-label">Tell Us about your Project</label>
+            <input type="text" class="form-control" id="inputDetails" placeholder="Describe Briefly about your project">
+        </div>
+        <div class="col-12 text-center mt-5">
+            <button type="submit" class="btn btn-lg hover-white" style="background-color:darkgoldenrod">Submit</button>
+        </div>
+    </form>
+</div>
+
+<!-- Footer -->
+<Footer class="primarycolor">
+    <app-footer></app-footer>
+</Footer>
